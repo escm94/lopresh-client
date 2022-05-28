@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import Link from "next/Link"; // don't use destructuring this since it's a default export in Next.js, unlike react router
+import Link from "next/link"; // don't use destructuring this since it's a default export in Next.js, unlike react router
 import { UserContext } from "../context";
 import { useRouter } from "next/router";
 import { Avatar } from "antd";
